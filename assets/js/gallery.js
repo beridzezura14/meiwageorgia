@@ -17,7 +17,7 @@ console.log(hiddenImages);
 toggleBtn.addEventListener("click", function() {
     console.log("See All button clicked");
 
-    if (toggleBtn.textContent === "See All") {
+    if (toggleBtn.textContent === "See ALL") {
         hiddenImages.forEach(img => {
             img.classList.remove("hidden");
         });
@@ -26,7 +26,7 @@ toggleBtn.addEventListener("click", function() {
         hiddenImages.forEach(img => {
             img.classList.add("hidden");
         });
-        toggleBtn.textContent = "See All";
+        toggleBtn.textContent = "See ALL";
     }
 });
 

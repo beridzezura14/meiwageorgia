@@ -20,6 +20,7 @@
 body{
     /* font-family: "Lato", sans-serif; */
     font-family: "Roboto Slab";
+    min-width: 1335px;
 
 }
 button{

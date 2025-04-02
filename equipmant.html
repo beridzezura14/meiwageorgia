@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipment</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <div class="header__width">
+            <div>
+                <a href="index.html">
+                    <img src="assets/img/Group 3.png" alt="logo">
+                </a>
+            </div>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a class="active" href="equipmant.html">Our Equipment</a>
+                <a href="gallery.html">Gallery</a>
+            </nav>
+            <div class="btn__1">
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Reliable, Afordable Equipment for Every Job</h1>
+
+            <div class="hero_second_section">
+                <div class="paymant">
+                    <p class="paymant_p">From small projects to Large - Scale Construction , We have the Right Tools for the Job</p>
+                    <div class="paymant_blur">
+                        <div>
+                            <p>We offer <span style="color: #ffffff;">convenient</span> and <span style="color: #ffffff;">secure payment</span> options for your purchases </p>
+                            <p>You can easily make payments using the following trusted credit cards, </p>
+                            <p>We accept payments via:</p>
+                        </div>
+                        <img src="assets/img/Frame 22.png" alt="paymant cards">
+                    </div>
+                </div>
+                <div class="btn_2">
+                    <a href="#">Let’s Contact Us </a>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev"><img src="assets/img/left.png" alt="left vector"></button>
+                <button id="next"><img src="assets/img/right.png" alt="right vector"></button>
+            </div>
+        </div>
+    </section>
+    <section class="equipmant">
+        <h2>The Equipment We Offer</h2>
+        <p class="equipmant-p">We provide a wide ranger of high-quality heavy equipment, from trusted brands, designed for various industries.</p>
+
+        <div class="equipmant-row">
+            <div>
+                <img class="equipmant-img" src="assets/img/equip/equip-1.png" alt="Hydraulic Excavator (Jumbo)  Manufacturer Kobelco Construction Machinary">
+                <h3>Hydraulic Excavator (Jumbo)  Manufacturer Kobelco Construction Machinary</h3>
+                <p>Model: Kobelko SK 235SRDLC-3 </p>
+                <button class="btn-4" onclick="openPopup(0)"> see more <img src="assets/img/icon.png" alt="icon"> </button>
+            </div>
+            <div>
+                <img class="equipmant-img" src="assets/img/equip/equip-2.png" alt="Hydraulic excavator, Manufacturer Hitachi Construction Machinery">
+                <h3>Hydraulic excavator ,  <br>
+                    Manufacturer  Hitachi Construction <br> Machinery</h3>
+                <p>Model: Hitachi ZX225USRLC-3</p>
+                <button class="btn-4" onclick="openPopup(1)">  see more <img src="assets/img/icon.png" alt="icon">  </button>
+            </div>
+            <div>
+                <img class="equipmant-img" src="assets/img/equip/equip-3.png" alt="Hydraulic Excavator (Jumbo)  Manufacturer Kobelco Construction Machinary">
+                <h3>Hydraulic excavator ,  <br> 
+                    Manufacturer  <br>
+                    Comatsu</h3>
+                <p>Model: Komatsu PC200-11</p>
+                <button class="btn-4" onclick="openPopup(2)"> see more <img src="assets/img/icon.png" alt="icon"> </button>
+            </div>
+            <div>
+                <img class="equipmant-img" src="assets/img/equip/equip-4.png" alt="Hydraulic Excavator (Jumbo)  Manufacturer Kobelco Construction Machinary">
+                <h3>Hydraulic excavator ,  <br>
+                    (Jumbo) <br>
+                    Sumitomo Construction Machinery</h3>
+                <p>Model: Hitachi ZX135USK-6</p>
+                <button class="btn-4" onclick="openPopup(3)"> see more <img src="assets/img/icon.png" alt="icon"> </button>
+            </div>
+            <div>
+                <img class="equipmant-img" src="assets/img/equip/equip-5.png" alt="Hydraulic Excavator (Jumbo)  Manufacturer Kobelco Construction Machinary">
+                <h3>Hydraulic excavator , <br> 
+                    Manufacturer  Hitachi Construction <br> Machinery</h3>
+                <p>Model: Hitachi ZX135USK-6</p>
+                <button class="btn-4" onclick="openPopup(4)"> see more <img src="assets/img/icon.png" alt="icon"> </button>
+            </div>
+        </div>
+
+        <!-- დაბურული ფონი -->
+        <div class="overlay" id="overlay" onclick="closePopup()"></div>
+
+        <!-- პოპაპი -->
+        <div class="popup" id="popup">
+            <span class="close-btn" onclick="closePopup()">✖</span>
+            <div class="popup-content">
+                <div class="popup-img" id="popup-img"><h2 id="popup-title"></h2></div>
+                <div class="popup-describe">
+                    <h3 style="font-size: 24px;">Category</h3>
+                    <p id="popup-subtitle"></p>
+                    <ul id="popup-details"></ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="footer-row">
+            <img class="footer-logo" src="assets/img/Group 3.png" alt="logo">
+            <div class="footer-main-content">
+                <div>
+                    <h3>Contacts</h3>
+                    <p><img src="assets/img/icon/phone.png" alt="phhone icon"> +995593364438</p>
+                    <p><img src="assets/img/icon/mail.png" alt="mail icon"> contact@meiwageorgia.com</p>
+                </div>
+                <div>
+                    <h3>Address</h3>
+                    <p><img src="assets/img/icon/location.png" alt="location icon"> Bidzina Kvernadze 31 ,Tbilisi</p>
+                </div>
+                <div>
+                    <h3>Accepted</h3>
+                    <img src="assets/img/footerframe 22.png" alt="cards">
+                </div>
+            </div>
+        </div>
+        <p class="label">© 2025 Meiwa Georgia LLC. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/slide.js"></script>
+    <script src="assets/js/popup.js"></script>
+</body>
+</html>

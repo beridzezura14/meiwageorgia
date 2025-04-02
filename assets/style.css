@@ -866,7 +866,7 @@ footer{
   gap: 8px;
 }
 .label{
-  font-size: 14px;
+  font-size: 14px !important;
   text-align: center;
   padding: 2rem 0;
 }
@@ -932,7 +932,7 @@ iframe{
 
 .contact-row{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
   margin-top: 3.5rem;
 }
